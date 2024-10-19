@@ -1,0 +1,5 @@
+# Mapping of teams at the competition, from their TLA to their properties.
+teams:
+    SRZ:
+        name: Example team
+        rookie: false
