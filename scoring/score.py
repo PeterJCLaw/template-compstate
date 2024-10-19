@@ -4,6 +4,8 @@ Scoring calculator used to assign points.
 Required as part of a compstate.
 """
 
+import warnings
+
 
 class InvalidScoresheetException(Exception):
     def __init__(self, message: str, *, code: str) -> None:
@@ -23,6 +25,9 @@ class Scorer:
             scores[tla] = 0
 
         return scores
+
+    def validate(self, other_data):
+        warnings.warn("Scoresheet validation not implemented")
 
 
 if __name__ == '__main__':
