@@ -4,4 +4,7 @@ teams:
   - name: fixed-string-region-id
     display_name: Human Readable Region Name
     teams:
-      - SRZ
+      - ABC
+      - SRZ1
+      - SRZ2
+      - SRZ3
